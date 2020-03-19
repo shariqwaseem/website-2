@@ -1,69 +1,256 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Web Assignment 2</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-  </head>
-  <body>
-    
-
-    
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">Pakistan National Training Bureau </a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+    <head>
+        <title>Web Assignment 2</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">Pakistan National Training Bureau </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            
-        </button>
-        
-       
-        
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>    
+                     <li class="nav-item">
+                         <a class="nav-link" href="#">Catalogue</a>
+                     </li>
 
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-    
-    <!-- Now starts the card code -->
-    <div class="container">
-        <div class="card" style="width: 18rem;">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
-            <div class="card-body">
-              <h5 class="card-title">Discover Courses</h5>
 
-              <p class="card-text">We offer training in multitude of courses ranging from </p>
-              <a href="#" class="btn btn-primary">Discover</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Why Us</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">Engineering</a>
+                            <a class="dropdown-item" href="#">Computer Science</a>
+                            <a class="dropdown-item" href="#">Human Science</a>
+                        </div>
+                    </li> -->
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-light my-2 my-sm-0" type="submit">Sign In</button>
+                    <button class="btn btn-info my-2 my-sm-0" type="submit">Sign Up</button>
+
+                </form>
             </div>
-          </div>
-    </div>
+        </nav>
+        <br>
+        <div class="jumbotron">
+            <h1>
+                Welcome to Pakistan Training Bureau's website.
+            </h1>
+            <p>
+                We provide high quality courses on our website ranging from technical studies to human management.
+            </p>
+        </div>
+        <!-- Now starts the card code -->
+        <div class="d-flex justify-content-center">
+            <div class='row'>
+                <div class="card m-2" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Techical Course</h5>
+                        <p class="card-text">Explore our entire range of courses.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Discover Courses</h5>
+                        <p class="card-text">We offer training in multitude of courses ranging from </p>
+                        <a href="#" class="btn btn-primary">Discover</a>
+                    </div>
+                </div>
+                <div class="card m-2" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                        <h5 class="card-title">Discover Courses</h5>
+                        <p class="card-text">We offer training in multitude of courses ranging from </p>
+                        <a href="#" class="btn btn-primary">Discover</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+       
+       <!-- Footer -->
+       <footer class="page-footer font-small stylish-color-dark pt-4">
+
+         <!-- Footer Links -->
+         <div class="container text-center text-md-left">
+
+           <!-- Grid row -->
+           <div class="row">
+
+             <!-- Grid column -->
+             <div class="col-md-4 mx-auto">
+
+               <!-- Content -->
+               <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+               <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                 consectetur
+                 adipisicing elit.</p>
+
+             </div>
+             <!-- Grid column -->
+
+             <hr class="clearfix w-100 d-md-none">
+
+             <!-- Grid column -->
+             <div class="col-md-2 mx-auto">
+
+               <!-- Links -->
+               <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+               <ul class="list-unstyled">
+                 <li>
+                   <a href="#!">Link 1</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 2</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 3</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 4</a>
+                 </li>
+               </ul>
+
+             </div>
+             <!-- Grid column -->
+
+             <hr class="clearfix w-100 d-md-none">
+
+             <!-- Grid column -->
+             <div class="col-md-2 mx-auto">
+
+               <!-- Links -->
+               <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+               <ul class="list-unstyled">
+                 <li>
+                   <a href="#!">Link 1</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 2</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 3</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 4</a>
+                 </li>
+               </ul>
+
+             </div>
+             <!-- Grid column -->
+
+             <hr class="clearfix w-100 d-md-none">
+
+             <!-- Grid column -->
+             <div class="col-md-2 mx-auto">
+
+               <!-- Links -->
+               <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+               <ul class="list-unstyled">
+                 <li>
+                   <a href="#!">Link 1</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 2</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 3</a>
+                 </li>
+                 <li>
+                   <a href="#!">Link 4</a>
+                 </li>
+               </ul>
+
+             </div>
+             <!-- Grid column -->
+
+           </div>
+           <!-- Grid row -->
+
+         </div>
+         <!-- Footer Links -->
+
+         <hr>
+
+         <!-- Call to action -->
+         <ul class="list-unstyled list-inline text-center py-2">
+           
+
+
+           
+         <!-- Call to action -->
+
+         <hr>
+
+         <!-- Social buttons -->
+         <ul class="list-unstyled list-inline text-center">
+           <li class="list-inline-item">
+             <a class="btn-floating btn-fb mx-1">
+               <i class="fab fa-facebook-f"> </i>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a class="btn-floating btn-tw mx-1">
+               <i class="fab fa-twitter"> </i>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a class="btn-floating btn-gplus mx-1">
+               <i class="fab fa-google-plus-g"> </i>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a class="btn-floating btn-li mx-1">
+               <i class="fab fa-linkedin-in"> </i>
+             </a>
+           </li>
+           <li class="list-inline-item">
+             <a class="btn-floating btn-dribbble mx-1">
+               <i class="fab fa-dribbble"> </i>
+             </a>
+           </li>
+         </ul>
+         <!-- Social buttons -->
+
+         <!-- Copyright -->
+         <div class="footer-copyright text-center py-3">© 2020 Copyright:
+           <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+         </div>
+         <!-- Copyright -->
+
+       </footer>
+       <!-- Footer -->
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
 </html>
